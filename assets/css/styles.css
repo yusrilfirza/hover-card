@@ -1,0 +1,33 @@
+.card-header {
+    padding: 45px;
+    z-index: 1;
+    position: absolute;
+    background-color: rgb(243, 243, 243);
+    width: 350px;
+    border-radius: 20px;
+}
+
+.card-header:hover {
+    color: white;
+    background-color: rgb(83, 173, 233);
+    transform: translateY(-165px);
+    transition: 0.5s;
+}
+
+.card-body {
+    margin-top: 55px;
+}
+
+.card {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    transition: 0.5s;
+    transform: translateY(50px);
+}
+
+.container {
+    transition: 0.5s;
+}
